@@ -1,0 +1,58 @@
+2024-12-16 18:08:25,395  INFO [main] BaseClass:32 - Initializing WebDriver and opening the browser.
+2024-12-16 18:09:12,313  INFO [main] BaseClass:32 - Initializing WebDriver and opening the browser.
+2024-12-16 18:10:20,433  INFO [main] BaseClass:32 - Initializing WebDriver and opening the browser.
+2024-12-16 18:10:25,924  INFO [main] UpComingFilms:34 - Up-coming film's Page initialized with WebDriver.
+2024-12-16 18:10:25,926  INFO [main] UpComingFilmsTest:31 - upcoming movie test started
+2024-12-16 18:10:25,927  INFO [main] UpComingFilms:39 - clicking on button
+2024-12-16 18:10:26,059  INFO [main] UpComingFilmsTest:33 - upcoming movie test ended
+2024-12-16 18:10:26,373  INFO [main] BaseClass:32 - Initializing WebDriver and opening the browser.
+2024-12-16 18:10:31,210  INFO [main] UpComingFilms:34 - Up-coming film's Page initialized with WebDriver.
+2024-12-16 18:10:31,212  INFO [main] UpComingFilmsTest:39 - count upcoming movie test started
+2024-12-16 18:10:31,212  INFO [main] UpComingFilms:45 - clicking on button
+2024-12-16 18:10:31,227  INFO [main] UpComingFilmsTest:42 - count upcoming movie test ended
+2024-12-16 18:10:31,471  INFO [main] BaseClass:32 - Initializing WebDriver and opening the browser.
+2024-12-16 18:10:35,834  INFO [main] UpComingFilms:34 - Up-coming film's Page initialized with WebDriver.
+2024-12-16 18:10:35,836  INFO [main] UpComingFilmsTest:48 - upcoming movie test started
+2024-12-16 18:10:35,836  INFO [main] UpComingFilms:51 - clicking on button
+2024-12-16 18:10:35,961  INFO [main] UpComingFilms:53 - checking for upcoming movie date's
+2024-12-16 18:10:36,020  INFO [main] UpComingFilmsTest:50 - upcoming movie test ended
+2024-12-16 18:10:36,243  INFO [main] BaseClass:32 - Initializing WebDriver and opening the browser.
+2024-12-16 18:10:40,928  INFO [main] UpComingFilms:34 - Up-coming film's Page initialized with WebDriver.
+2024-12-16 18:10:40,929  INFO [main] UpComingFilmsTest:56 - upcoming movie dates test started
+2024-12-16 18:10:40,929  INFO [main] UpComingFilms:61 - clicking on button
+2024-12-16 18:10:41,042  INFO [main] UpComingFilms:63 - checking for image display
+2024-12-16 18:10:41,067  INFO [main] UpComingFilmsTest:58 - upcoming movie dates test ended
+2024-12-16 18:10:41,310  INFO [main] BaseClass:32 - Initializing WebDriver and opening the browser.
+2024-12-16 18:10:45,942  INFO [main] UpComingFilms:34 - Up-coming film's Page initialized with WebDriver.
+2024-12-16 18:10:45,943  INFO [main] UpComingFilmsTest:64 - add to wish test started
+2024-12-16 18:10:45,943  INFO [main] UpComingFilms:69 - clicking on button
+2024-12-16 18:10:46,074  INFO [main] UpComingFilms:71 - checking for image display
+2024-12-16 18:10:46,105  INFO [main] UpComingFilmsTest:66 - add to wish test ended
+2024-12-16 18:38:42,771  INFO [main] BaseClass:32 - Initializing WebDriver and opening the browser.
+2024-12-16 18:38:47,993  INFO [main] UpComingFilms:34 - Up-coming film's Page initialized with WebDriver.
+2024-12-16 18:38:47,997  INFO [main] UpComingFilmsTest:31 - upcoming movie test started
+2024-12-16 18:38:47,997  INFO [main] UpComingFilms:39 - clicking on button
+2024-12-16 18:38:48,326  INFO [main] UpComingFilmsTest:33 - upcoming movie test ended
+2024-12-16 18:38:48,571  INFO [main] BaseClass:32 - Initializing WebDriver and opening the browser.
+2024-12-16 18:38:53,223  INFO [main] UpComingFilms:34 - Up-coming film's Page initialized with WebDriver.
+2024-12-16 18:38:53,225  INFO [main] UpComingFilmsTest:39 - count upcoming movie test started
+2024-12-16 18:38:53,225  INFO [main] UpComingFilms:45 - clicking on button
+2024-12-16 18:38:53,251  INFO [main] UpComingFilmsTest:42 - count upcoming movie test ended
+2024-12-16 18:38:53,492  INFO [main] BaseClass:32 - Initializing WebDriver and opening the browser.
+2024-12-16 18:38:57,050  INFO [main] UpComingFilms:34 - Up-coming film's Page initialized with WebDriver.
+2024-12-16 18:38:57,052  INFO [main] UpComingFilmsTest:48 - upcoming movie test started
+2024-12-16 18:38:57,052  INFO [main] UpComingFilms:51 - clicking on button
+2024-12-16 18:38:57,365  INFO [main] UpComingFilms:53 - checking for upcoming movie date's
+2024-12-16 18:38:57,437  INFO [main] UpComingFilmsTest:50 - upcoming movie test ended
+2024-12-16 18:38:57,638  INFO [main] BaseClass:32 - Initializing WebDriver and opening the browser.
+2024-12-16 18:39:01,879  INFO [main] UpComingFilms:34 - Up-coming film's Page initialized with WebDriver.
+2024-12-16 18:39:01,880  INFO [main] UpComingFilmsTest:56 - upcoming movie dates test started
+2024-12-16 18:39:01,880  INFO [main] UpComingFilms:61 - clicking on button
+2024-12-16 18:39:01,988  INFO [main] UpComingFilms:63 - checking for image display
+2024-12-16 18:39:02,017  INFO [main] UpComingFilmsTest:58 - upcoming movie dates test ended
+2024-12-16 18:39:02,244  INFO [main] BaseClass:32 - Initializing WebDriver and opening the browser.
+2024-12-16 18:39:06,055  INFO [main] UpComingFilms:34 - Up-coming film's Page initialized with WebDriver.
+2024-12-16 18:39:06,055  INFO [main] UpComingFilmsTest:64 - add to wish test started
+2024-12-16 18:39:06,055  INFO [main] UpComingFilms:69 - clicking on button
+2024-12-16 18:39:06,220  INFO [main] UpComingFilms:71 - checking for image display
+2024-12-16 18:39:06,273  INFO [main] UpComingFilmsTest:66 - add to wish test ended

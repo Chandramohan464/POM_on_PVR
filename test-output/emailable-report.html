@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">PVR movie booking Application Test Automation Test Suite</th></tr>
+<tr><td><a href="#t0">PVR movie booking App Test Cases</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">51,454</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">PVR movie booking Application Test Automation Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">PVR movie booking App Test Cases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.pvr.qa.testcases.HomePageTest</td><td><a href="#m0">selectLocationDataTest</a></td><td rowspan="1">1734344205532</td><td rowspan="1">0</td></tr><tr><th colspan="4">PVR movie booking App Test Cases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.pvr.qa.testcases.HomePageTest</td><td><a href="#m1">OfferButtonTest</a></td><td rowspan="1">1734344216159</td><td rowspan="1">142</td></tr><tr class="passedeven"><td><a href="#m2">checkImageDisplayTest</a></td><td rowspan="1">1734344196918</td><td rowspan="1">197</td></tr><tr class="passedeven"><td><a href="#m3">isPageTitleCorrectTest</a></td><td rowspan="1">1734344220792</td><td rowspan="1">8</td></tr><tr class="passedeven"><td><a href="#m4">searchMovieTest</a></td><td rowspan="1">1734344210045</td><td rowspan="1">1023</td></tr><tr class="passedeven"><td><a href="#m5">selectLocationTest</a></td><td rowspan="1">1734344201332</td><td rowspan="1">2347</td></tr><tr class="passedodd"><td rowspan="5">com.pvr.qa.testcases.UpComingFilmsTest</td><td><a href="#m6">CheckUpComingDisplayTest</a></td><td rowspan="1">1734344225343</td><td rowspan="1">115</td></tr><tr class="passedodd"><td><a href="#m7">checkAddToWishesTest</a></td><td rowspan="1">1734344243749</td><td rowspan="1">131</td></tr><tr class="passedodd"><td><a href="#m8">checkSeeAllButtonTest</a></td><td rowspan="1">1734344239351</td><td rowspan="1">130</td></tr><tr class="passedodd"><td><a href="#m9">countUpComingMoviesTest</a></td><td rowspan="1">1734344229978</td><td rowspan="1">18</td></tr><tr class="passedodd"><td><a href="#m10">upComingMovieDatesTest</a></td><td rowspan="1">1734344234464</td><td rowspan="1">195</td></tr></tbody>
+</table>
+<h2>PVR movie booking App Test Cases</h2><h3 id="m0">com.pvr.qa.testcases.HomePageTest#selectLocationDataTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke &quot;java.io.InputStream.markSupported()&quot; because &quot;stream&quot; is null
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;java.io.InputStream.markSupported()&quot; because &quot;stream&quot; is null
+	at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:222)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:214)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:185)
+	at com.pvr.qa.util.TestUtil.getTestData(TestUtil.java:28)
+	at com.pvr.qa.testcases.HomePageTest.getPVRTestData(HomePageTest.java:48)
+	... 24 more
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.pvr.qa.testcases.HomePageTest#OfferButtonTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.pvr.qa.testcases.HomePageTest#checkImageDisplayTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.pvr.qa.testcases.HomePageTest#isPageTitleCorrectTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.pvr.qa.testcases.HomePageTest#searchMovieTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.pvr.qa.testcases.HomePageTest#selectLocationTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.pvr.qa.testcases.UpComingFilmsTest#CheckUpComingDisplayTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.pvr.qa.testcases.UpComingFilmsTest#checkAddToWishesTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.pvr.qa.testcases.UpComingFilmsTest#checkSeeAllButtonTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.pvr.qa.testcases.UpComingFilmsTest#countUpComingMoviesTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.pvr.qa.testcases.UpComingFilmsTest#upComingMovieDatesTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-16T15:46:32 IST" name="PVR movie booking Application Test Automation Test Suite" finished-at="2024-12-16T15:47:24 IST" duration-ms="51454">
+    <groups>
+    </groups>
+    <test started-at="2024-12-16T15:46:32 IST" name="PVR movie booking App Test Cases" finished-at="2024-12-16T15:47:24 IST" duration-ms="51454">
+      <class name="com.pvr.qa.testcases.UpComingFilmsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pvr.qa.testcases.UpComingFilmsTest@8f4ea7c]" started-at="2024-12-16T15:47:01 IST" name="setUp" finished-at="2024-12-16T15:47:05 IST" duration-ms="4340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CheckUpComingDisplayTest()[pri:1, instance:com.pvr.qa.testcases.UpComingFilmsTest@8f4ea7c]" started-at="2024-12-16T15:47:05 IST" name="CheckUpComingDisplayTest" finished-at="2024-12-16T15:47:05 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckUpComingDisplayTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pvr.qa.testcases.UpComingFilmsTest@8f4ea7c]" started-at="2024-12-16T15:47:05 IST" name="tearDown" finished-at="2024-12-16T15:47:05 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pvr.qa.testcases.UpComingFilmsTest@8f4ea7c]" started-at="2024-12-16T15:47:05 IST" name="setUp" finished-at="2024-12-16T15:47:09 IST" duration-ms="4288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="countUpComingMoviesTest()[pri:2, instance:com.pvr.qa.testcases.UpComingFilmsTest@8f4ea7c]" started-at="2024-12-16T15:47:09 IST" name="countUpComingMoviesTest" finished-at="2024-12-16T15:47:09 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countUpComingMoviesTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pvr.qa.testcases.UpComingFilmsTest@8f4ea7c]" started-at="2024-12-16T15:47:09 IST" name="tearDown" finished-at="2024-12-16T15:47:10 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pvr.qa.testcases.UpComingFilmsTest@8f4ea7c]" started-at="2024-12-16T15:47:10 IST" name="setUp" finished-at="2024-12-16T15:47:14 IST" duration-ms="4261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="upComingMovieDatesTest()[pri:3, instance:com.pvr.qa.testcases.UpComingFilmsTest@8f4ea7c]" started-at="2024-12-16T15:47:14 IST" name="upComingMovieDatesTest" finished-at="2024-12-16T15:47:14 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upComingMovieDatesTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pvr.qa.testcases.UpComingFilmsTest@8f4ea7c]" started-at="2024-12-16T15:47:14 IST" name="tearDown" finished-at="2024-12-16T15:47:14 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pvr.qa.testcases.UpComingFilmsTest@8f4ea7c]" started-at="2024-12-16T15:47:14 IST" name="setUp" finished-at="2024-12-16T15:47:19 IST" duration-ms="4448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkSeeAllButtonTest()[pri:4, instance:com.pvr.qa.testcases.UpComingFilmsTest@8f4ea7c]" started-at="2024-12-16T15:47:19 IST" name="checkSeeAllButtonTest" finished-at="2024-12-16T15:47:19 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSeeAllButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pvr.qa.testcases.UpComingFilmsTest@8f4ea7c]" started-at="2024-12-16T15:47:19 IST" name="tearDown" finished-at="2024-12-16T15:47:19 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pvr.qa.testcases.UpComingFilmsTest@8f4ea7c]" started-at="2024-12-16T15:47:19 IST" name="setUp" finished-at="2024-12-16T15:47:23 IST" duration-ms="4035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkAddToWishesTest()[pri:5, instance:com.pvr.qa.testcases.UpComingFilmsTest@8f4ea7c]" started-at="2024-12-16T15:47:23 IST" name="checkAddToWishesTest" finished-at="2024-12-16T15:47:23 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddToWishesTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pvr.qa.testcases.UpComingFilmsTest@8f4ea7c]" started-at="2024-12-16T15:47:23 IST" name="tearDown" finished-at="2024-12-16T15:47:24 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pvr.qa.testcases.UpComingFilmsTest -->
+      <class name="com.pvr.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pvr.qa.testcases.HomePageTest@1afd44cb]" started-at="2024-12-16T15:46:32 IST" name="setUp" finished-at="2024-12-16T15:46:36 IST" duration-ms="4218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkImageDisplayTest()[pri:1, instance:com.pvr.qa.testcases.HomePageTest@1afd44cb]" started-at="2024-12-16T15:46:36 IST" name="checkImageDisplayTest" finished-at="2024-12-16T15:46:37 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkImageDisplayTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pvr.qa.testcases.HomePageTest@1afd44cb]" started-at="2024-12-16T15:46:37 IST" name="tearDown" finished-at="2024-12-16T15:46:37 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pvr.qa.testcases.HomePageTest@1afd44cb]" started-at="2024-12-16T15:46:37 IST" name="setUp" finished-at="2024-12-16T15:46:41 IST" duration-ms="4010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectLocationTest()[pri:2, instance:com.pvr.qa.testcases.HomePageTest@1afd44cb]" started-at="2024-12-16T15:46:41 IST" name="selectLocationTest" finished-at="2024-12-16T15:46:43 IST" duration-ms="2347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLocationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pvr.qa.testcases.HomePageTest@1afd44cb]" started-at="2024-12-16T15:46:43 IST" name="tearDown" finished-at="2024-12-16T15:46:45 IST" duration-ms="1835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="selectLocationDataTest(java.lang.String)[pri:3, instance:com.pvr.qa.testcases.HomePageTest@1afd44cb]" started-at="2024-12-16T15:46:45 IST" name="selectLocationDataTest" data-provider="getPVRTestData" finished-at="2024-12-16T15:46:45 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.io.InputStream.markSupported()" because "stream" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "java.io.InputStream.markSupported()" because "stream" is null
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:58)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:809)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:946)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+Caused by: java.lang.NullPointerException: Cannot invoke "java.io.InputStream.markSupported()" because "stream" is null
+at org.apache.poi.poifs.filesystem.FileMagic.prepareToCheckMagic(FileMagic.java:222)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:214)
+at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:185)
+at com.pvr.qa.util.TestUtil.getTestData(TestUtil.java:28)
+at com.pvr.qa.testcases.HomePageTest.getPVRTestData(HomePageTest.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:54)
+... 24 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLocationDataTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pvr.qa.testcases.HomePageTest@1afd44cb]" started-at="2024-12-16T15:46:45 IST" name="setUp" finished-at="2024-12-16T15:46:50 IST" duration-ms="4497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchMovieTest()[pri:4, instance:com.pvr.qa.testcases.HomePageTest@1afd44cb]" started-at="2024-12-16T15:46:50 IST" name="searchMovieTest" finished-at="2024-12-16T15:46:51 IST" duration-ms="1023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMovieTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pvr.qa.testcases.HomePageTest@1afd44cb]" started-at="2024-12-16T15:46:51 IST" name="tearDown" finished-at="2024-12-16T15:46:51 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pvr.qa.testcases.HomePageTest@1afd44cb]" started-at="2024-12-16T15:46:51 IST" name="setUp" finished-at="2024-12-16T15:46:56 IST" duration-ms="4849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="OfferButtonTest()[pri:5, instance:com.pvr.qa.testcases.HomePageTest@1afd44cb]" started-at="2024-12-16T15:46:56 IST" name="OfferButtonTest" finished-at="2024-12-16T15:46:56 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OfferButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pvr.qa.testcases.HomePageTest@1afd44cb]" started-at="2024-12-16T15:46:56 IST" name="tearDown" finished-at="2024-12-16T15:46:56 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pvr.qa.testcases.HomePageTest@1afd44cb]" started-at="2024-12-16T15:46:56 IST" name="setUp" finished-at="2024-12-16T15:47:00 IST" duration-ms="4290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="isPageTitleCorrectTest()[pri:6, instance:com.pvr.qa.testcases.HomePageTest@1afd44cb]" started-at="2024-12-16T15:47:00 IST" name="isPageTitleCorrectTest" finished-at="2024-12-16T15:47:00 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPageTitleCorrectTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pvr.qa.testcases.HomePageTest@1afd44cb]" started-at="2024-12-16T15:47:00 IST" name="tearDown" finished-at="2024-12-16T15:47:01 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pvr.qa.testcases.HomePageTest -->
+    </test> <!-- PVR movie booking App Test Cases -->
+  </suite> <!-- PVR movie booking Application Test Automation Test Suite -->
+</testng-results>
