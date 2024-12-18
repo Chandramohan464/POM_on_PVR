@@ -1,15 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [PVR movie booking Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.pvr.qa.util.MyListener"/>
+  </listeners>
   <test thread-count="5" name="PVR movie booking App Test Cases(failed)">
     <classes>
-      <class name="com.pvr.qa.testcases.HomePageTest">
+      <class name="com.pvr.qa.testcases.ShowTimingsPageTest">
         <methods>
-          <include name="selectLocationDataTest"/>
+          <include name="tommorowShowTimingTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="showTimingsTest"/>
+          <include name="countShowsTest"/>
+          <include name="findShowByTimeTest"/>
+          <include name="countShowsinSevenTest"/>
+          <include name="findShowByTimeDataTest"/>
+        </methods>
+      </class> <!-- com.pvr.qa.testcases.ShowTimingsPageTest -->
+      <class name="com.pvr.qa.testcases.UpComingFilmsTest">
+        <methods>
+          <include name="checkAddToWishesTest"/>
+          <include name="upComingMovieDatesTest"/>
+          <include name="checkSeeAllButtonTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
+      </class> <!-- com.pvr.qa.testcases.UpComingFilmsTest -->
+      <class name="com.pvr.qa.testcases.OffersPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="getOfferTitleTest"/>
+          <include name="viewTermsAndConditionsTest"/>
+          <include name="offersCountTest"/>
+          <include name="tearDown"/>
+          <include name="offerDetailsTest"/>
+          <include name="offersPageTest"/>
+        </methods>
+      </class> <!-- com.pvr.qa.testcases.OffersPageTest -->
+      <class name="com.pvr.qa.testcases.HomePageTest">
+        <methods>
+          <include name="selectLocationTest"/>
+          <include name="checkImageDisplayTest"/>
+          <include name="isPageTitleCorrectTest"/>
+          <include name="searchMovieTest"/>
+          <include name="setUp"/>
+          <include name="OfferButtonTest"/>
+          <include name="tearDown"/>
+        </methods>
       </class> <!-- com.pvr.qa.testcases.HomePageTest -->
+      <class name="com.pvr.qa.testcases.CinemasPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="countPVRCinemaTest"/>
+          <include name="totalCinemasUnderSevenTest"/>
+          <include name="checkForDisplayOfExperiencesTest"/>
+          <include name="checksearchBarIsDisplayedTest"/>
+          <include name="numberOfTheatersTest"/>
+        </methods>
+      </class> <!-- com.pvr.qa.testcases.CinemasPageTest -->
     </classes>
   </test> <!-- PVR movie booking App Test Cases(failed) -->
 </suite> <!-- Failed suite [PVR movie booking Application Test Automation Test Suite] -->

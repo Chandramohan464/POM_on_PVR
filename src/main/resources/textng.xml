@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="PVR movie booking Application Test Automation Test Suite">
+
+    <listeners>
+        <listener class-name="com.pvr.qa.util.MyListener" />
+    </listeners>
+
     <test name="PVR movie booking App Test Cases">
         <classes>
             <class name="com.pvr.qa.testcases.HomePageTest"></class>
-<!--            <class name="com.pvr.qa.testcases.OffersPageTest"></class>-->
-<!--            <class name="com.pvr.qa.testcases.CinemasPageTest"></class>-->
+            <class name="com.pvr.qa.testcases.OffersPageTest"></class>
+            <class name="com.pvr.qa.testcases.CinemasPageTest"></class>
 <!--            <class name="com.pvr.qa.testcases.ShowTimingsPageTest"></class>-->
-            <class name="com.pvr.qa.testcases.UpComingFilmsTest"></class>
+<!--            <class name="com.pvr.qa.testcases.UpComingFilmsTest"></class>-->
         </classes>
     </test>
 </suite>

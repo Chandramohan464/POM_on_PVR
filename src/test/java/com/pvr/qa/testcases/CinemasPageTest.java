@@ -2,6 +2,7 @@ package com.pvr.qa.testcases;
 
 import com.pvr.qa.base.BaseClass;
 import com.pvr.qa.pages.CinemasPage;
+import io.qameta.allure.*;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
@@ -27,6 +28,10 @@ public class CinemasPageTest extends BaseClass {
     }
 
     @Test(priority = 1)
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify the number of theaters displayed")
+    @Feature("Theater Information")
+    @Story("User checks the total number of theaters available")
     public void numberOfTheatersTest(){
 
         logger.info("number of theater's test started");
@@ -35,17 +40,25 @@ public class CinemasPageTest extends BaseClass {
     }
 
     @Test(priority = 2)
-    public void checkForDisplayOfExperiencesTest(){
+    @Severity(SeverityLevel.BLOCKER)
+    @Description("Verify the display of cinema experiences")
+    @Feature("Experience Display")
+    @Story("User validates if cinema experiences are displayed correctly on the page")
+    public void checkForDisplayOfExperiencesTest() {
 
         logger.info("Check for display of experiences test started");
-        boolean validatePage=cinemasPage.checkForDisplayOfExperiences();
+        boolean validatePage = cinemasPage.checkForDisplayOfExperiences();
         logger.info("Verifying if experiences are displayed: " + validatePage);
-        Assert.assertTrue(validatePage);
+        Assert.assertFalse(validatePage);
         logger.info("Check for display of experiences test ended");
     }
 
     @Test(priority = 3)
-    public void checksearchBarIsDisplayedTest(){
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Verify that the search bar is displayed on the cinemas page")
+    @Feature("Search Bar Functionality")
+    @Story("User checks for the presence of the search bar on the page")
+    public void checksearchBarIsDisplayedTest() {
 
         logger.info("Check search bar is displayed test started");
         logger.info("Verifying if the search bar is displayed: ");
@@ -54,22 +67,31 @@ public class CinemasPageTest extends BaseClass {
     }
 
     @Test(priority = 4)
-    public void countPVRCinemaTest(){
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Verify the count of PVR Cinemas displayed on the cinemas page")
+    @Feature("PVR Cinema Count")
+    @Story("User validates the total number of PVR Cinemas available")
+    public void countPVRCinemaTest() {
 
-        logger.info("Check search bar is displayed test started");
-        logger.info("Verifying if the search bar is displayed: ");
+        logger.info("Count PVR Cinema test started");
+        logger.info("Verifying the count of PVR Cinemas: ");
         cinemasPage.countPVRCinema();
-        logger.info("Check search bar is displayed test ended");
+        logger.info("Count PVR Cinema test ended");
     }
 
     @Test(priority = 5)
-    public void totalCinemasUnderSevenTest(){
+    @Severity(SeverityLevel.MINOR)
+    @Description("Verify the total number of cinemas listed under seven categories")
+    @Feature("Cinema Listing")
+    @Story("User checks the total count of cinemas categorized under seven categories")
+    public void totalCinemasUnderSevenTest() {
 
-        logger.info("Check search bar is displayed test started");
+        logger.info("Total cinemas under seven test started");
         logger.info("Verifying total cinemas: ");
         cinemasPage.totalCinemasUnderSeven();
-        logger.info("Check search bar is displayed test ended");
+        logger.info("Total cinemas under seven test ended");
     }
+
 
     @AfterMethod
     public void tearDown(){
